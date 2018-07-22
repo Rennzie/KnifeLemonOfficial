@@ -8,6 +8,7 @@ body {
   .columns {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     height: 85vh;
     width: 90vh;
     border: 2px solid black;
@@ -16,7 +17,6 @@ body {
       @extend .columns;
       box-sizing: border-box;
       width: 25%;
-      margin: 0, 1vh, 0, 1vh;
     }
   }
 }

@@ -8,13 +8,13 @@ body {
   body .columns, body .columns .column1, body .columns .column2, body .columns .column3, body .columns .column4 {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     height: 85vh;
     width: 90vh;
     border: 2px solid black;
     background-color: papayawhip; }
     body .columns .column1, body .columns .column2, body .columns .column3, body .columns .column4 {
       box-sizing: border-box;
-      width: 25%;
-      margin: 0, 1vh, 0, 1vh; }
+      width: 25%; }
 
 /*# sourceMappingURL=style.css.map */
