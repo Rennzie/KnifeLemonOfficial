@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  max-height: 100vh;
+  max-width: 100vh;
+  padding: 5px;
+  background-color: purple;
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+    width: 90vh;
+    border: 2px solid black;
+    background-color: green;
+    .column1, .column2, .column3, .column4 {
+      @extend .columns;
+      box-sizing: border-box;
+      width: 25%;
+      margin: 0, 1vh, 0, 1vh;
+    }
+  }
+}
